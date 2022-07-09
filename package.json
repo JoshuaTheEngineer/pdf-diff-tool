@@ -4,7 +4,8 @@
   "description": "PDF Diff Tool",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "mocha": "node ./node_modules/mocha/bin/mocha",
+    "test": "mocha --recursive --timeout 600000"
   },
   "repository": {
     "type": "git",
